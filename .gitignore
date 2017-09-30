@@ -1,8 +1,10 @@
 # Ignore all executable file
 **/cyka
 
-# Ignore all unzipped file from Libfdr
-week04/Libfdr/*
+# Ignore all unzipped library file
+week04/Libfdr/
+week05/B-Tree/
 
 # Except the tar file
 !week04/Libfdr/libfdr.tar
+!week05/B-Tree/bt-5.0.0.tar.gz
