@@ -108,16 +108,6 @@ int main() {
         }
     }
 
-    node = jrb_find_str(book, "Nguyen Dinh Tuan");
-    if (node != NULL) {
-        jrb_delete_node(node);
-        strcpy(name, "Nguyen Dinh Tuan");
-        strcpy(number, "123123123");
-        jrb_insert_str(book, strdup(name), new_jval_l(atol(number)));
-    } else {
-        printf("Not found\n");
-    }
-
     jrb_free_tree(book);
 
     return 0;
