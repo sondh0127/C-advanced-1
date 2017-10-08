@@ -1,8 +1,2 @@
 # Ignore all executable file
 **/cyka
-
-# Ignore all unzipped library file
-week04/Libfdr/
-
-# Except the tar file
-!week04/Libfdr/libfdr.tar
